@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+}
+body .container {
+  border: none;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+body .container input {
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  display: none;
+}
+body .container button {
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  outline: none;
+}
+body .container button:hover {
+  background-color: black;
+  transition: 1s;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
