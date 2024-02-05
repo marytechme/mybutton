@@ -28,9 +28,11 @@ body{
             box-shadow: 0 0px 2px 2px #222;
                         inset: 0px 0px 4px 4px #444;
         }
-        #toggle.active .indicator{
-            
-        }
+    
+    }
+    #toggle.active .indicator{
+        left: 100px;
+
     }
 
 }
