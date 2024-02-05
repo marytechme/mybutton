@@ -27,8 +27,9 @@ body #toggle .indicator {
   top: 0;
   left: 0;
   background: linear-gradient(#444, #222);
+  box-shadow: 0 0px 2px 2px #222;
+  inset: 0px 0px 4px 4px #444;
 }
-
 * {
   padding: 0;
   margin: 0;
