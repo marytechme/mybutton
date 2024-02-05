@@ -1,12 +1,28 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(46, 44, 44);
+}
+body #toggle {
+  border: 2px solid white;
+  width: 100px;
+  height: 50px;
+  border-radius: 120px;
+  background: linear-gradient(#444, #222);
+  padding: 20px;
+  margin: 20px;
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: gainsboro;
-}
 body .container {
   border: none;
   padding: 20px;
